@@ -1,1 +1,41 @@
+.grid {
+    background-color: black;
+    margin: auto;
+    width: 550px;
+    height: 550px;
+    padding: 0%;
+    gap: 0px;
+}
+.gridElement{
+    float:left;
 
+}
+
+.reset, .prompt, .rainbow, .transparent{
+    background-color: red;
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.title{
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+    border: 3px solid blue;
+    border-radius: 1rem;
+    background-color: blue;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+}
